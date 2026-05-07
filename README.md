@@ -1,33 +1,44 @@
+# Sat Final Gabriel POO Menu
 
-# Sat Final Gabriel POO
+Proyecto desarrollado en Java utilizando Programacion Orientada a Objetos.
 
-Proyecto desarrollado en Java utilizando Programación Orientada a Objetos.
+## Objetivo
 
-## Problemáticas integradas
+Integrar las tres problematicas del examen en una sola solucion:
 
-1. Ingeniería de la información
-2. Metodología de Yourdon
-3. Metodología de Jackson
+1. Ingenieria de la informacion
+2. Metodologia de Yourdon
+3. Metodologia de Jackson
 
-## Clases principales
+## Funcionamiento
 
+El sistema permite desde consola:
+
+- Seleccionar usuarios
+- Seleccionar recursos fiscales
+- Seleccionar acciones
+- Validar accesos
+- Registrar eventos de auditoria
+- Generar reportes
+
+## Clases
+
+- Main
 - Usuario
 - Rol
 - RecursoFiscal
 - SolicitudAcceso
 - EventoAuditoria
 - SistemaFiscal
-- ReporteAuditoria
 
-## Funciones
-
-- Validación de accesos
-- Manejo de roles
-- Registro de auditoría
-- Generación de reportes
-
-## Cómo ejecutar
+## Como ejecutar
 
 1. Abrir IntelliJ IDEA
 2. Abrir la carpeta del proyecto
-3. Ejecutar Main.java
+3. Entrar a src
+4. Ejecutar Main.java
+5. Usar el menu de consola
+
+## Autor
+
+Gabriel
