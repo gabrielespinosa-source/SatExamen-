@@ -1,27 +1,42 @@
 # Sat Final Gabriel POO Menu
 
-Proyecto desarrollado en Java utilizando Programacion Orientada a Objetos.
+## Introducción
 
-## Objetivo
+Este proyecto fue desarrollado en Java utilizando Programación Orientada a Objetos con el objetivo de integrar las tres problemáticas planteadas en el examen práctico.
 
-Integrar las tres problematicas del examen en una sola solucion:
+El sistema simula un entorno fiscal donde distintos usuarios intentan acceder a recursos dependiendo de su rol institucional.
 
-1. Ingenieria de la informacion
-2. Metodologia de Yourdon
-3. Metodologia de Jackson
+---
 
-## Funcionamiento
+## Problemáticas integradas
 
-El sistema permite desde consola:
+1. Ingeniería de la información
+2. Metodología de Yourdon
+3. Metodología de Jackson
 
-- Seleccionar usuarios
-- Seleccionar recursos fiscales
-- Seleccionar acciones
-- Validar accesos
-- Registrar eventos de auditoria
-- Generar reportes
+---
 
-## Clases
+## Funciones principales
+
+El sistema permite:
+
+- Registrar solicitudes de acceso
+- Validar permisos de usuarios
+- Gestionar roles institucionales
+- Registrar eventos de auditoría
+- Generar reportes desde consola
+
+---
+
+## Tecnologías utilizadas
+
+- Java
+- IntelliJ IDEA
+- Programación Orientada a Objetos
+
+---
+
+## Clases utilizadas
 
 - Main
 - Usuario
@@ -31,13 +46,28 @@ El sistema permite desde consola:
 - EventoAuditoria
 - SistemaFiscal
 
-## Como ejecutar
+---
+
+## Ejemplo de funcionamiento
+
+1. El usuario selecciona un usuario del sistema.
+2. Selecciona un recurso fiscal.
+3. Selecciona una acción.
+4. El sistema valida permisos.
+5. Se registra un evento de auditoría.
+6. Se genera un reporte final.
+
+---
+
+## Cómo ejecutar el proyecto
 
 1. Abrir IntelliJ IDEA
 2. Abrir la carpeta del proyecto
-3. Entrar a src
-4. Ejecutar Main.java
-5. Usar el menu de consola
+3. Entrar a la carpeta `src`
+4. Ejecutar `Main.java`
+5. Utilizar el menú de consola
+
+---
 
 ## Autor
 
